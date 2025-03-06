@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        String name = "hasnain";
-        System.out.println(name);
+        int myNum = 3920232;
+        System.out.println(myNum);
     }
 }
