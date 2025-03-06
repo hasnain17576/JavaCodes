@@ -1,8 +1,7 @@
-public class App {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
-        System.out.println("My name is Muhammad Hasnain");
-        System.out.println("I am a student of BSE");
-        System.out.println("Now i am study in comsats university");
+public class Main {
+    public static void main(String[] args) {
+      System.out.print("Hello World! ");
+      System.out.print("I will print on the same line.");
     }
-}
+  }
+  

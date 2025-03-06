@@ -1,0 +1,20 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.mavenproject2;
+
+/**
+ *
+ * @author Hasnain wasool
+ */
+public class Mavenproject2 {
+  public static void main(String[] args) {
+   int x = 59+70;
+   x-=56;
+   System.out.print(x);
+  }
+}
+
+
+
