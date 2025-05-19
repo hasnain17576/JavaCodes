@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        int [] marks = new int[200];
+        int [] marks = new int[10];
         Scanner sc = new Scanner(System.in);
         for(int i=0; i<marks.length; i++)
         {
