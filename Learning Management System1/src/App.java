@@ -23,7 +23,7 @@ public class App {
                 System.out.print("Choose an option (1-3): ");
 
                 int choose = input.nextInt();
-                input.nextLine(); // clear buffer
+                input.nextLine(); 
 
                 if (choose == 3) {
                     System.out.println("Exiting... Thank you!");
@@ -93,7 +93,7 @@ public class App {
 
                                             case 2: {
                                                 System.out.println("Quiz Started:");
-                                                input.nextLine(); // clear buffer
+                                                input.nextLine(); 
                                                 char[] answers = new char[5];
 
                                                 for (int i = 0; i < 5; i++) {
@@ -144,7 +144,7 @@ public class App {
 
                                     } catch (InputMismatchException e) {
                                         System.out.println("Please enter a valid number.");
-                                        input.nextLine(); // clear invalid input
+                                        input.nextLine();
                                     } catch (Exception e) {
                                         System.out.println("Unexpected error in dashboard: " + e.getMessage());
                                         input.nextLine();
@@ -219,10 +219,10 @@ public class App {
 
             } catch (InputMismatchException e) {
                 System.out.println("Invalid input. Please enter a number.");
-                input.nextLine(); // clear input
+                input.nextLine(); 
             } catch (Exception e) {
                 System.out.println("Unexpected error: " + e.getMessage());
-                input.nextLine(); // clear input
+                input.nextLine();
             }
         }
 
