@@ -3,7 +3,7 @@ import java.io.File;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        File file = new File("scores.txt");  // correct extension
+        File file = new File("src/scores.txt");  // correct extension
         Scanner input = new Scanner(file);
         
         while (input.hasNext()) {
